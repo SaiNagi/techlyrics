@@ -1,0 +1,286 @@
+.n-cont {
+  margin: 0;
+  padding: 0;
+}
+.right-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.header {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.banner {
+  background-image: url("https://media.istockphoto.com/id/1475437757/photo/happy-couple-buying-a-house-and-holding-the-keys-while-smiling.webp?b=1&s=170667a&w=0&k=20&c=_6r8I02DhLyXf7U2f3o-jaYI5T_YZixugiYRVKIXeTA=");
+  height: 60vh;
+  background-size: cover;
+  width: 100vw;
+}
+.b-btn {
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 8px;
+  height: 40px;
+  padding-top: 7px;
+}
+.profile-cont {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 20px;
+  display: none;
+  position: fixed;
+  top: 100px;
+  right: 150px;
+  /* left: 40px; */
+}
+
+.profile-cont-p {
+  font-size: 14px;
+}
+.profile-cont-display {
+  display: block;
+}
+
+.content {
+  color: white;
+
+  font-family: Roboto;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: bold;
+}
+.content-icon {
+  color: orange;
+  border-radius: 50%;
+}
+.banner-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.banner-toggle-p {
+  border-radius: 10px;
+  background-color: #332d2b;
+  padding: 5px 10px;
+}
+.navbar {
+  display: none;
+}
+.navbar button {
+  background: transparent;
+}
+.nav-content {
+  color: white;
+}
+.modal {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* display: block; */
+  color: black;
+  padding: 80px 40px;
+  background-color: white;
+}
+
+.modal-content {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  /* transform: translate(-50%, -50%); */
+  background-color: #fefefe;
+  /* display: block; */
+  padding: 20px;
+  border: 1px solid #888;
+  /* width: 80%; */
+  /* max-width: 400px; */
+  border: none;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 20px;
+}
+.advertisements {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 100px;
+  padding: 50px;
+}
+.adv-1 {
+  width: 150px;
+  flex-shrink: 0;
+}
+.country-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.country-btn {
+  background: transparent;
+  display: flex;
+  width: 180px;
+  height: 40px;
+
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.country-btn p {
+  font-size: 14px;
+}
+.country-btn-cont {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.gallery {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.galary-item {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 8px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+}
+.item {
+  background-image: url("https://prod-static-assets.amberstudent.com/images/popular-cities/MELBOURNE/MELBOURNE_2.png?w=250&h=250&fit=crop&auto=format&trim=auto&q=10&fm=pjpg");
+}
+.item1 {
+  background-image: url("https://prod-static-assets.amberstudent.com/images/popular-cities/BRISBANE/BRISBANE_1.png?w=250&h=250&fit=crop&auto=format&trim=auto&q=10&fm=pjpg");
+}
+.item2 {
+  background-image: url("https://prod-static-assets.amberstudent.com/images/popular-cities/SYDNEY/SYDNEY_2.png?w=250&h=250&fit=crop&auto=format&trim=auto&q=10&fm=pjpg");
+}
+.item3 {
+  background-image: url("https://prod-static-assets.amberstudent.com/images/popular-cities/ADELAIDE/ADELAIDE_1.png?w=250&h=250&fit=crop&auto=format&trim=auto&q=10&fm=pjpg");
+}
+.item4 {
+  background-image: url("https://prod-static-assets.amberstudent.com/images/popular-cities/PERTH/PERTH_2.png?w=250&h=250&fit=crop&auto=format&trim=auto&q=10&fm=pjpg");
+}
+.item5 {
+  background-image: url("https://prod-static-assets.amberstudent.com/images/popular-cities/Canberra.png?w=250&h=250&fit=crop&auto=format&trim=auto&q=10&fm=pjpg");
+}
+.item6 {
+  background-image: url("https://prod-static-assets.amberstudent.com/images/popular-cities/GOLD%20COAST/GOLD%20COAST_1.png?w=250&h=250&fit=crop&auto=format&trim=auto&q=10&fm=pjpg");
+}
+.itme7 {
+  background-image: url("https://prod-static-assets.amberstudent.com/images/popular-cities/Coffs%20Harbour.png?w=250&h=250&fit=crop&auto=format&trim=auto&q=10&fm=pjpg");
+}
+.gallery p {
+  background-color: #282216;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0.8;
+  color: white;
+  text-align: center;
+}
+.amber-gen {
+  margin-top: 40px;
+}
+
+.amber-posts {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  overflow-x: auto;
+  margin-bottom: 40px;
+}
+.post1 {
+  background-color: #ffefd7;
+  padding: 20px;
+  border: 1px solid azure;
+  width: 500px;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+.post1-btn {
+  background-color: #ff5779;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.post2 {
+  background-color: #c7dffb;
+  padding: 20px;
+  border: 1px solid azure;
+  width: 500px;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+
+.h-line {
+  height: 10px;
+  width: 80%;
+  background: linear-gradient(to right, #f8d780, #fde9c5);
+}
+.h-line2 {
+  background: linear-gradient(to right, #bafdd4, #e7f3da, #fbf0dc);
+}
+@media screen and (max-width: 600px) {
+  .right-link {
+    display: none;
+  }
+  .navbar {
+    display: block;
+  }
+  .advertisements {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: none;
+    gap: 10px;
+    padding: 20px;
+    flex-shrink: 0;
+  }
+  .adv-1 {
+    width: 200px;
+    height: 200px;
+    /* background-color: aqua; */
+  }
+  .gallery {
+    justify-content: center;
+  }
+  .galary-item {
+    width: 80%;
+  }
+  .post1,
+  .post2 {
+    height: 250px;
+  }
+}
